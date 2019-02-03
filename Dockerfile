@@ -1,4 +1,4 @@
-FROM nginx:1.14.1
+FROM arm32v7/nginx:1.14
 LABEL maintainer="Jason Wilder mail@jasonwilder.com"
 
 # Install wget and install/updates certificates
